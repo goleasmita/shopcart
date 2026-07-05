@@ -101,9 +101,9 @@ export default function Cart() {
                         </div>
                       </div>
 
-                      <div className="col-lg-2">
+                      <div className="col-lg-2 d-flex justify-content-center ">
                         <button
-                          className="btn btn-outline-danger w-100"
+                          className="btn btn-outline-danger "
                           onClick={() => dispatch(removeFromCart(v.id))}>
                           Remove
                         </button>
@@ -153,9 +153,11 @@ export default function Cart() {
                 <h5 className="text-success">${total.toFixed(2)}</h5>
               </div>
 
-              <button className="btn checkout-btn w-100">
-                Proceed to Checkout
-              </button>
+              <div className="d-flex justify-content-center">
+                <button className="btn checkout-btn ">
+                  Proceed to Checkout
+                </button>
+              </div>
             </div>
           </div>
         </div>

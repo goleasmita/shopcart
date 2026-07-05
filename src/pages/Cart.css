@@ -2,6 +2,10 @@ body {
   background: #f5f7fb;
 }
 
+.cart-section {
+  font-family: "Courier New", Courier, monospace;
+}
+
 .cart-card {
   background: #fff;
   border-radius: 15px;
@@ -58,16 +62,16 @@ body {
 }
 
 .checkout-btn {
-  background: #000;
-  color: #fff;
-  padding: 12px;
-  border-radius: 10px;
-  transition: 0.3s;
+  background: #4090b0 !important;
+  color: #fff !important;
+  padding: 12px !important;
+  border-radius: 10px !important;
+  transition: 0.3s !important;
 }
 
 .checkout-btn:hover {
-  background: #222;
-  color: #fff;
+  background: #2c7c9b !important;
+  color: #fff !important;
 }
 
 .btn-clear {

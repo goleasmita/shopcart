@@ -237,7 +237,9 @@ export default function Products() {
             <div className="col-lg-9 " style={{ marginTop: "70px" }}>
               <div className="row g-4">
                 {currentProducts.map((v) => (
-                  <div className="col-xl-4  col-md-6" key={v.id}>
+                  <div
+                    className="col-xxl-4 col-xl-6 col-lg-6  col-md-6"
+                    key={v.id}>
                     <div className="card h-100">
                       <NavLink to={`/detail/${v.id}`}>
                         <img

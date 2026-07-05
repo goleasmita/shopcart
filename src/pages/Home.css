@@ -2,7 +2,7 @@
   background: linear-gradient(135deg, #e7a6a6, #3b828f);
   color: white;
   overflow: hidden;
-  font-family: "Courier New", Courier, monospace;
+  /* font-family: "Courier New", Courier, monospace; */
 }
 
 h5 {

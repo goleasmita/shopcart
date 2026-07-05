@@ -114,13 +114,12 @@ export default function ProductDetailPage() {
         </div>
       </div>
 
-      <h4>Similar Items</h4>
-
-      <div className="container mb-5">
-        <div className="row">
+      <div className="container pb-5 pt-5">
+        <h2 className="pb-3">Similar Items</h2>
+        <div className="row g-4">
           {similar.map((v) => {
             return (
-              <div className="col-lg-3 col-md-6" key={v.id}>
+              <div className="col-xl-3 col-lg-4 col-md-6" key={v.id}>
                 <div className="card h-100">
                   <NavLink to={`/detail/${v.id}`}>
                     <img
