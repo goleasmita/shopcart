@@ -2,7 +2,7 @@
   background: linear-gradient(135deg, #e7a6a6, #3b828f);
   color: white;
   overflow: hidden;
-  /* font-family: "Courier New", Courier, monospace; */
+  font-family: "Courier New", Courier, monospace;
 }
 
 h5 {
@@ -20,7 +20,12 @@ h5 {
   font-size: 70px;
   font-weight: 800;
   line-height: 1.2;
-  font-family: amatic sc;
+  font-family: myfont;
+}
+
+@font-face {
+  font-family: myfont;
+  src: url(../assets/AmaticSC-Regular.ttf);
 }
 
 .hero-title span {

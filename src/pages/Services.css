@@ -11,8 +11,12 @@
 }
 
 h2 {
-  font-family: amatic sc;
+  font-family: myfont;
   font-size: 70px !important;
+}
+@font-face {
+  font-family: myfont;
+  src: url(../assets/AmaticSC-Regular.ttf);
 }
 
 .service-card {

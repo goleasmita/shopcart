@@ -6,8 +6,13 @@
 }
 
 .testimonial-hero h1 {
-  font-family: amatic sc;
+  font-family: myfont;
   font-size: 60px;
+}
+
+@font-face {
+  font-family: myfont;
+  src: url(../assets/AmaticSC-Regular.ttf);
 }
 
 .testimonial-card {
