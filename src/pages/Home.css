@@ -1,0 +1,135 @@
+.hero-section {
+  background: linear-gradient(135deg, #e7a6a6, #3b828f);
+  color: white;
+  overflow: hidden;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h5 {
+  color: #0d4953 !important;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.hero-title {
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 1.2;
+  font-family: amatic sc;
+}
+
+.hero-title span {
+  color: #ffd54f;
+}
+
+.hero-text {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #f1f1f1;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 550px;
+  border-radius: 20px;
+  /* box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3); */
+  transition: 0.4s;
+}
+
+.hero-image:hover {
+  transform: scale(1.05);
+}
+
+.btn-primary {
+  background: #de6d6dfa !important;
+  border: none !important;
+  padding: 12px 35px;
+  border-radius: 30px;
+  font-weight: bold;
+  box-shadow: 5px 5px 2px rgb(166, 65, 65);
+}
+
+.btn-primary:hover {
+  background: #cc5353 !important;
+}
+
+.btn-outline-light {
+  padding: 12px 35px;
+  border-radius: 30px;
+  font-weight: bold;
+  box-shadow: 5px 5px 2px rgb(112, 124, 133);
+}
+
+@media (max-width: 992px) {
+  .hero-title {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .hero-subtitle,
+  .hero-text {
+    text-align: center;
+  }
+
+  .hero-section .btn {
+    margin-bottom: 15px;
+  }
+
+  .hero-section {
+    padding: 60px 0;
+  }
+
+  .hero-image {
+    margin-top: 40px;
+  }
+
+  .hero-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-section .row {
+    display: fle !important;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-title {
+    font-size: 35px;
+  }
+
+  .hero-text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hero-section {
+    margin-top: 40px;
+  }
+}
+
+/* 
+.services-section {
+  background: linear-gradient(
+    50deg,
+    rgb(215, 148, 148) 0%,
+    rgb(215, 148, 148) 20%,
+    #488d9b 20%,
+    #3b828f 40%,
+    rgb(215, 148, 148) 40%,
+    rgb(215, 148, 148) 60%,
+    #3b828f 60%,
+    #3b828f 80%,
+    rgb(215, 148, 148) 80%,
+    rgb(215, 148, 148) 100%
+  );
+  color: white;
+} */

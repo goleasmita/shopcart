@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #de6d6dfa;
+  transition: all 0.4s ease;
+  border-radius: 60px;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.transparent-nav {
+  background: rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(10px);
+}
+
+.transparent-nav .nav-link {
+  color: #000 !important;
+  font-weight: 500;
+}
+
+.transparent-nav .nav-link:hover {
+  color: white !important;
+  text-shadow: 1px 1px 2px rgb(217, 113, 113);
+}
+
+.nav-item .nav-link {
+  color: #f5f5f5;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.navbar .navbar-brand {
+  color: #e1e3e3fa;
+  font-weight: 700;
+  font-size: 2rem;
+  text-shadow:
+    1px 1px 0px #eb452b,
+    2px 2px 0px #efa032,
+    4px 4px 0px #46b59b,
+    7px 7px 0px #052939,
+    8px 8px 0px #aa4848fa,
+    9px 9px 0px #aa4848fa,
+    10px 10px 0px #aa4848fa,
+    11px 11px 0px #aa4848fa;
+}
+
+.filterbtn button {
+  border: none;
+  background-color: #5a80a4;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.filterbtn button:hover {
+  background-color: #0e4760;
+  box-shadow: 5px 5px 2px #76a1c9;
+}
+
+@media (max-width: 1200px) {
+  .navbar {
+    width: 100%;
+    border-radius: 0px;
+    margin-top: 0px;
+  }
+}

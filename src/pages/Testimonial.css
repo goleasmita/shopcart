@@ -1,0 +1,123 @@
+.testimonial-hero {
+  background: #f8f9fa;
+  min-height: 30vh;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+}
+
+.testimonial-hero h1 {
+  font-family: amatic sc;
+  font-size: 60px;
+}
+
+.testimonial-card {
+  border-radius: 20px;
+  transition: 0.4s;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-10px);
+}
+
+.testimonial-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 4px solid #3f90b0;
+}
+
+.quote-icon {
+  color: #3f90b0;
+  font-size: 28px;
+}
+
+.stats-section {
+  background: linear-gradient(
+    50deg,
+    rgb(215, 148, 148) 0%,
+    rgb(215, 148, 148) 20%,
+    #488d9b 20%,
+    #3b828f 40%,
+    rgb(215, 148, 148) 40%,
+    rgb(215, 148, 148) 60%,
+    #3b828f 60%,
+    #3b828f 80%,
+    rgb(215, 148, 148) 80%,
+    rgb(215, 148, 148) 100%
+  );
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.stats-section h2 {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.box {
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  font-size: 45px;
+  background: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.feature-box:hover {
+  transform: translateY(-8px);
+}
+
+.cta-section {
+  background: #f8f9fa;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.cta-section .btn {
+  background-color: #46a5b5;
+  padding: 12px 35px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  box-shadow: 5px 5px 2px rgb(112, 124, 133);
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin: 15px 0;
+}
+
+.star {
+  font-size: 22px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.star:hover {
+  transform: scale(1.2);
+}
+
+.filled {
+  color: #e97b7b;
+}
+
+.empty {
+  color: #e97b7b;
+}
+
+.btn-test {
+  background-color: #ec7b7b !important;
+  border-radius: 30px !important;
+  padding: 12px 30px !important;
+  box-shadow: 5px 5px 1px rgb(206, 162, 162);
+  color: rgb(255, 255, 255) !important;
+}
+
+.btn-test:hover {
+  outline: 1px solid red;
+  background-color: rgba(239, 238, 238, 0.814) !important;
+  color: black !important;
+}

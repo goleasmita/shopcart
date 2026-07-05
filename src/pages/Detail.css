@@ -1,0 +1,109 @@
+.detailpage {
+  background: #f8f9fa;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.product-detail {
+  min-height: 100vh;
+  padding-top: 130px !important;
+
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+/* Image */
+
+.product-image-box {
+  background: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.product-image {
+  height: 420px;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* Title */
+
+.product-title {
+  font-size: 34px;
+  font-weight: 700;
+  color: #222;
+}
+
+/* Price */
+
+.product-price {
+  color: #499cb3;
+  font-weight: 700;
+  font-size: 38px;
+}
+
+/* Description */
+
+.product-description {
+  color: #666;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+/* Buttons */
+
+.btn-cart {
+  background: #499cb3 !important;
+  color: #fff !important;
+  padding: 12px 35px !important;
+  border-radius: 30px !important;
+  font-weight: 600 !important;
+  transition: 0.3s !important;
+}
+
+.btn-cart:hover {
+  background: #367f93 !important;
+}
+
+.btn-buy {
+  background: #363636 !important;
+  color: #fff !important;
+  padding: 12px 35px !important;
+  border-radius: 30px !important;
+  font-weight: 600 !important;
+  transition: 0.3s !important;
+}
+
+.btn-buy:hover {
+  background: #000 !important;
+  color: #fff;
+}
+
+/* Stock Badge */
+
+.badge {
+  padding: 8px 15px;
+  font-size: 14px;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .product-title {
+    font-size: 28px;
+  }
+
+  .product-price {
+    font-size: 30px;
+  }
+
+  .product-image {
+    height: 300px;
+  }
+
+  .btn-cart,
+  .btn-buy {
+    width: 100%;
+  }
+}
